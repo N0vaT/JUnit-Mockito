@@ -1,14 +1,6 @@
 # JUnit/Mockito
 
-## Реализация:
-- Java — 1.8;
-- JUnit 5 framework;
-- maven-surefire-plugin
-  junit-jupiter-engine
-  junit-jupiter-params
-  junit-jupiter-api
-
-### Exercise 00
+## Exercise 00
 **Реализация:**
 - Java — 1.8;
 - JUnit 5 framework;
@@ -75,7 +67,7 @@
 Создание класса EmbeddedDataSourceTest. В этом классе реализован метод init(), отмеченный аннотацией @BeforeEach. В этом классе реализована функциональность для создания источника данных с помощью EmbeddedDataBaseBuilder (класс в библиотеке Spring-jdbc).
 Реализован простой тестовый метод для проверки возвращаемого значения метода getConnection(), созданного DataSource (это значение не должно быть нулевым).
 
-### Exercise 02 – Test for JDBC Repository
+## Exercise 02 – Test for JDBC Repository
 **Реализация:**
 - Java — 1.8;
 - JUnit 5 framework;
@@ -127,7 +119,7 @@ final Product EXPECTED_UPDATED_PRODUCT = new Product(3L, "Lipton Tea", 230.);
 final Product EXPECTED_SAVE_PRODUCT = new Product(6L, "Chocolate", 250.);
 ```
 
-### Exercise 03 – Test for Service
+## Exercise 03 – Test for Service
 **Реализация:**
 - Java — 1.8;
 - JUnit 5 framework;
